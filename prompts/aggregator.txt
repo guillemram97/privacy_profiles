@@ -1,0 +1,12 @@
+You are a helpful assistant. Answer to the query from user. You are given an example of a potentially similar query with an answer. 
+
+
+[[[ ### userQuery ### ]]]
+{query_modified}
+[[[ ### answerFromAssistant ### ]]] 
+{response}
+[[[ ### completed ### ]]]
+
+
+[[[ ### userQuery ### ]]]
+{query}

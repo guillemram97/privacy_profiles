@@ -1,0 +1,51 @@
+{
+    "aggregator": {
+        "prompt_template_path": "prompts/aggregator.txt",
+        "variables": [
+            "query",
+            "query_modified",
+            "response"
+        ]
+    },
+    "paraphraser": {
+        "prompt_template_path": "prompts/paraphraser.txt",
+        "variables": [
+            "query",
+            "profile"
+        ]
+    },
+    "deferral": {
+        "prompt_template_path": "prompts/deferral.txt",
+        "variables": [
+            "query",
+            "profile"
+        ]
+    },
+    "deferral_post": {
+        "prompt_template_path": "prompts/deferral_post.txt",
+        "variables": [
+            "query_modified",
+            "profile"
+        ]
+    },
+    "answer": {
+        "prompt_template_path": "prompts/answer.txt",
+        "variables": [
+            "query"
+        ]
+    },
+    "answer_post": {
+        "prompt_template_path": "prompts/answer_post.txt",
+        "variables": [
+            "query_modified"
+        ]
+    },
+    "evaluator": {
+        "prompt_template_path": "prompts/evaluator.txt",
+        "variables": [
+            "query",
+            "response_A",
+            "response_B"
+        ]
+    }
+}
